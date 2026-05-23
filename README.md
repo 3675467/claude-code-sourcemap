@@ -21,6 +21,9 @@
 - 还原文件数：**4756 个**（含 1884 个 `.ts`/`.tsx` 源文件）
 - 还原方式：提取 `cli.js.map` 中的 `sourcesContent` 字段
 
+由于 2.1.88 版本已从官方 npm 下架，直接使用 npm install @anthropic-ai/claude-code@2.1.88 会报错，你可以通过腾讯缓存镜像进行安装：
+npm install -g https://mirrors.cloud.tencent.com/npm/@anthropic-ai/claude-code/-/claude-code-2.1.88.tgz
+
 ## 目录结构
 
 ```
